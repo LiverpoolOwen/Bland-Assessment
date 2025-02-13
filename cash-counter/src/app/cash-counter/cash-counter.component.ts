@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './cash-counter.component.html',
   standalone: false,
-  styleUrl: './app.component.css'
+  styleUrl: './cash-counter.component.css'
 })
-export class AppComponent {
+export class CashCounterComponent {
   title = 'cash-counter';
 }
